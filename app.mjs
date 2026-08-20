@@ -1,4 +1,4 @@
-import { reverse, capitalise } from './string-toolbox.mjs';
+import { sum, average } from './array-toolbox.mjs';
 
-console.log(reverse('hello'));
-console.log(capitalise('hello world'));
+console.log(sum([1, 2, 3]));
+console.log(average([2, 4, 6]));
